@@ -1,3 +1,27 @@
+# ClearURLs rule fork
+
+Upstream seems unmaintained, this fork merges serveral PRs:
+
+* https://github.com/ClearURLs/Rules/pull/321
+* https://github.com/ClearURLs/Rules/pull/320
+* https://github.com/ClearURLs/Rules/pull/319
+* https://github.com/ClearURLs/Rules/pull/317
+* https://github.com/ClearURLs/Rules/pull/199
+* https://github.com/ClearURLs/Rules/pull/195
+* https://github.com/ClearURLs/Rules/pull/194
+* https://github.com/ClearURLs/Rules/pull/191
+* https://github.com/ClearURLs/Rules/pull/190
+* https://github.com/ClearURLs/Rules/pull/183
+* https://github.com/ClearURLs/Rules/pull/181
+* https://github.com/ClearURLs/Rules/pull/179
+* https://github.com/ClearURLs/Rules/pull/127
+* https://github.com/ClearURLs/Rules/pull/109
+
+Used in [LinkSheet](https://github.com/LinkSheet/LinkSheet)
+
+## Original readme
+
+
 <a href="https://www.paypal.me/KevinRoebert" target="_blank"><img src="https://raw.githubusercontent.com/KevinRoebert/DonateButtons/master/Paypal.png" alt="Buy Me A Coffee" height="55"></a>
 <a href="https://www.buymeacoffee.com/KevinRoebert" target="_blank"><img src="https://raw.githubusercontent.com/KevinRoebert/DonateButtons/master/BuyMeACoffee.png" alt="Buy Me A Coffee" height="55"></a>
 
