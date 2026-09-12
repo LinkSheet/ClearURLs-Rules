@@ -1229,7 +1229,8 @@
             "rules": [
                 "igshid",
                 "igsh",
-                "igsi"
+                "igsi",
+                "stkn"
             ],
             "referralMarketing": [],
             "rawRules": [],
