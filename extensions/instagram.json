@@ -1,0 +1,57 @@
+{
+  "sortPosition": 71,
+  "key": "instagram",
+  "url": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?instagram\\.com",
+  "completeProvider": false,
+  "rules": [
+    {
+      "type": "rr",
+      "ruleType": 6,
+      "regex": "^igshid$"
+    },
+    {
+      "type": "rr",
+      "ruleType": 6,
+      "regex": "^igsh$"
+    },
+    {
+      "type": "rr",
+      "ruleType": 6,
+      "regex": "^igsi$"
+    },
+    {
+      "type": "cr",
+      "ruleType": 2,
+      "keyMatcher": {
+        "conditions": [
+          {
+            "type": "lemc",
+            "length": 4
+          },
+          {
+            "type": "rmc",
+            "regex": "[a-z]{4}"
+          }
+        ]
+      },
+      "valueMatcher": {
+        "conditions": [
+          {
+            "type": "lemc",
+            "length": 16
+          },
+          {
+            "type": "rmc",
+            "regex": "[A-Za-z0-9-_]{14,16}={0,2}"
+          }
+        ]
+      }
+    }
+  ],
+  "rawRules": [],
+  "referralMarketing": [],
+  "exceptions": [],
+  "redirections": [
+    ".*u=([^&]*)"
+  ]
+}
